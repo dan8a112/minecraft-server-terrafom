@@ -1,0 +1,50 @@
+# Terraform specific files
+# Local .terraform directories
+.terraform/
+.terraform.d/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which might contain sensitive data
+*.tfvars
+*.tfvars.json
+
+# Provider lock file
+.terraform.lock.hcl
+
+# Ignore override files as they are usually used for local dev
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Minecraft server specific
+*.log
+logs/
+server.properties.backup
+server-resource-packs/
+
+# System specific files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore SSH keys and known hosts
+.ssh/
