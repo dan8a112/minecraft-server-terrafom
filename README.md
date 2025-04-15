@@ -241,16 +241,12 @@ admin_username = "minecraft"
 
 3. **Previsualizar los cambios** (crear un plan de despliegue):
    ```
-   terraform plan -out=minecraft.tfplan
+   terraform plan -var-file="local.tfvars"
    ```
 
 4. **Aplicar la configuración** (crear los recursos):
    ```
-   terraform apply minecraft.tfplan
-   ```
-   O sin un plan guardado:
-   ```
-   terraform apply
+   terraform apply -var-file="local.tfvars"
    ```
 
 5. **Ver salidas** (después del despliegue):
