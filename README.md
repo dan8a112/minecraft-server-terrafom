@@ -38,7 +38,7 @@ Before you begin, ensure you have:
 
 ## Configuration
 
-1. Create a `terraform.tfvars` file with your specific values:
+1. Create a `local.tfvars` file with your specific values:
 
 ```hcl
 subscription_id = "your-azure-subscription-id"
@@ -192,7 +192,7 @@ Antes de comenzar, asegúrate de tener:
 
 ## Configuración
 
-1. Crear un archivo `terraform.tfvars` con tus valores específicos:
+1. Crear un archivo `local.tfvars` con tus valores específicos:
 
 ```hcl
 subscription_id = "tu-id-de-suscripción-de-azure"
